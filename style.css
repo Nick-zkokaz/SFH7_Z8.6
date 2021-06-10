@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #75aad2;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1249px;
+    margin: 0 auto;
+    min-height: 89px;
+    background-color: #ded4d4;
+}
+.site-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+
+.site-menu > a {
+    padding: 39px 30px 30px;
+    color: #322d2d;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.site-menu > a:hover {
+    background-color: #ff3f40;
+}
+.intro-image {
+    width: 351px;
+    height: 186px;
+    box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 10px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #0e0a0a;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    max-width: 1300px;
+    background-color: #5882FA;
+    flex: 0 0 auto;
+}
